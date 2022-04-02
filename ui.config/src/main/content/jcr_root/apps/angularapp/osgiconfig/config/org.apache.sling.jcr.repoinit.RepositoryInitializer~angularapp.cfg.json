@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/angularapp",
+        "create path (nt:unstructured) /content/dam/angularapp/jcr:content",
+        "set properties on /content/dam/angularapp/jcr:content\n  set cq:conf{String} to /conf/angularapp\n  set jcr:title{String} to \"Angular App\"\nend"
+    ]
+}

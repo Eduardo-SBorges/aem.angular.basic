@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/angularapp" mode="merge"/>
+    <filter root="/content/angularapp" mode="merge"/>
+    <filter root="/content/dam/angularapp/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/angularapp" mode="merge"/>
+</workspaceFilter>

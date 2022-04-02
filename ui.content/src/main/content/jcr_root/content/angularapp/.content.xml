@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/conf/angularapp/settings/wcm/templates/(?!xf-).*"
+        cq:conf="/conf/angularapp"
+        cq:lastModified="{Date}2022-04-02T19:11:33.153-03:00"
+        cq:lastModifiedBy="admin"
+        cq:redirectTarget="/content/angularapp/us/en"
+        cq:template="/conf/angularapp/settings/wcm/templates/spa-app-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Angular App"
+        sling:configRef="/conf/angularapp"
+        sling:redirect="true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="angularapp/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+</jcr:root>
