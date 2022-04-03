@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\n  <p>Minha propriedade de texto: {{text}}</p>\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\n</div>";
+    __webpack_exports__["default"] = "<div>\r\n  <p>Minha propriedade de texto: {{text}}</p>\r\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\r\n</div>";
     /***/
   },
 

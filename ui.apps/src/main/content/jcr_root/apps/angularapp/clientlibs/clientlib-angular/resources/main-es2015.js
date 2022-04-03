@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <p>Minha propriedade de texto: {{text}}</p>\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\r\n  <p>Minha propriedade de texto: {{text}}</p>\r\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\r\n</div>");
 
 /***/ }),
 
