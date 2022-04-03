@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-02T19:15:50.453-03:00"
+        cq:lastModified="{Date}2022-04-02T20:48:18.984-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/angularapp/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -31,6 +31,14 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="angularapp/components/separator"/>
+                <basic_component
+                    jcr:created="{Date}2022-04-02T20:41:01.020-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-02T20:48:18.982-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="angularapp/components/basic-component"
+                    text="ARTURY"/>
             </responsivegrid>
         </root>
         <image jcr:primaryType="nt:unstructured">
