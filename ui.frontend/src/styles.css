@@ -19,9 +19,6 @@ h2,
 h3,
 h4,
 h5,
-p,
-.nav-container,
-.rw-box {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  color: #000000;
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

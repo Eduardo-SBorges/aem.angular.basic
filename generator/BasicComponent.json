@@ -5,8 +5,8 @@
     "test-path": "../core/src/test/java",
     "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
     "component-path": "angularapp",
-    "model-interface-pkg": "com.angular.core.models",
-    "model-impl-pkg": "com.angular.core.models.impl"
+    "model-interface-pkg": "com.angularapp.core.models",
+    "model-impl-pkg": "com.angularapp.core.models.impl"
   },
   "name": "basic-component",
   "title": "Basic Component",
