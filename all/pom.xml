@@ -53,6 +53,7 @@
                     <packageType>container</packageType>
                     <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
                     <skipSubPackageValidation>true</skipSubPackageValidation>
+                    <allowIndexDefinitions>true</allowIndexDefinitions>
                     <embeddeds>
                         <embedded>
                             <groupId>com.angularapp</groupId>
@@ -86,6 +87,18 @@
                             <groupId>com.adobe.aem</groupId>
                             <artifactId>spa.project.core.ui.apps</artifactId>
                             <target>/apps/angularapp-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.acs</groupId>
+                            <artifactId>acs-aem-commons-ui.apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/angularapp-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.acs</groupId>
+                            <artifactId>acs-aem-commons-ui.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/angularapp-vendor-packages/content/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -220,6 +233,20 @@
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>spa.project.core.core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.acs</groupId>
+            <artifactId>acs-aem-commons-ui.content</artifactId>
+            <version>5.2.0</version>
+            <type>zip</type>
+            <classifier>min</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.acs</groupId>
+            <artifactId>acs-aem-commons-ui.apps</artifactId>
+            <version>5.2.0</version>
+            <type>zip</type>
+            <classifier>min</classifier>
         </dependency>
     </dependencies>
 </project>

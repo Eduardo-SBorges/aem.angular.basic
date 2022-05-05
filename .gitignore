@@ -107,4 +107,4 @@ ui.tests/test-module/assets/form/themes/**/*current.png
 # AEM Component Generator
 !generator/cmp-generator.jar
 
-ui.apps/src/main/content/jcr_root/apps/compass/clientlibs/clientlib-react
+ui.apps/src/main/content/jcr_root/apps/angularapp/clientlibs/clientlib-angular

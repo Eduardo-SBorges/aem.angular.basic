@@ -63,6 +63,18 @@
       "command": "cd ui.frontend && mvn clean install -PautoInstallPackage",
       "problemMatcher": []
     },
+    /* ---------- Maven ui.frontend && ui.apps ---------- */
+    {
+      "label": "Build ui.frontend && ui.apps",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "panel": "shared",
+        "clear": true
+      },
+      "command": "cd ui.frontend && mvn clean install -PautoInstallPackage && cd ../ui.apps && mvn clean install -PautoInstallPackage",
+      "problemMatcher": []
+    },
     /* ---------- Maven Clean ---------- */
     {
       "label": "Clean Project",
